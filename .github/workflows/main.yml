@@ -1,0 +1,13 @@
+name : Muhammad Nasir
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Greeting
+        run: echo "hello from github action lesson"
